@@ -43,4 +43,4 @@ def generate_emoji(data):
     emit("emoji_response", json.dumps({"text": text, "emoji": emoji_response}))
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, host="0.0.0.0", port=5000)
+    socketio.run(app, debug=True, host="0.0.0.0", port=1000)
